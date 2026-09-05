@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-//----------------------Q2--------------------------//
+//----------------------Q1--------------------------//
 class StackLinked
 {
 private:
@@ -62,5 +62,3 @@ int main()
     stack.printTop();
     return 0;
 }
-//use queue linked list in printer CPU
-//use stack linked list in undo and redo operations
