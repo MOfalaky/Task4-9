@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-//----------------------Q1--------------------------//
+//----------------------Q2--------------------------//
 void binarySearch(int arr[], int size, int number)
 {
     int first = 0;
@@ -32,3 +32,5 @@ int main()
     binarySearch(arr,8,25);
     return 0;
 }
+//time complexity : كفائة البرنامج ف التعامل مع البيانات الضخمة
+//عشان كل ما الوقت يقل كل ما ينمح ادت افضل 
