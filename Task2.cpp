@@ -51,7 +51,7 @@ public:
             delete start;
         }
     }
-    void print()
+    void display()
     {
         Node *start = front;
         while (start != NULL)
@@ -79,9 +79,9 @@ int main()
     queue.enqueue(100);
     queue.enqueue(200);
     queue.enqueue(300);
-    queue.print();
+    queue.display();
     queue.dequeue();
-    queue.print();
+    queue.display();
     queue.printFront();
     return 0;
 }
